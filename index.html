@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Captcha</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="/~tiedej/idk.php" method="post">
+        <div class="header">
+            <h1>Animal Captcha</h1>
+            <p>Identify the animals below to prove you're human.</p>
+        </div>
+
+        <fieldset class="captchaOne">
+            <div class="captcha-content">
+            <h4>Welches Tier ist das?</h4>
+            <img src="./images/dog.png" alt="">
+            </div>
+            <div class="radios">
+                <div class="radio-option">
+                    <input type="radio" name="animalOne" value="Hund">
+                    <label>Hund</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="animalOne" value="Pferd">
+                    <label>Pferd</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="animalOne" value="Affe">
+                    <label>Affe</label>
+                </div>
+        </fieldset>
+
+        <fieldset class="captchaTwo">
+            <div class="captcha-content">
+            <h4>Welches Tier ist das?</h4>
+            <img src="./images/hase.png" alt="">
+            </div>
+            <div class="radios">
+                <div class="radio-option">
+                    <input type="radio" name="animalTwo" value="Nilpferd">
+                    <label>Nilpferd</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="animalTwo" value="Katze">
+                    <label>Katze</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="animalTwo" value="Hase">
+                    <label>Hase</label>
+                </div>
+        </fieldset>
+
+        <fieldset class="captchaThree">
+            <div class="captcha-content">
+            <h4>Welches Tier ist das?</h4>
+            <img src="./images/nashorn.png" alt="">
+            </div>
+            <div class="radios">
+                <div class="radio-option">
+                    <input type="radio" name="animalThree" value="Ratte">
+                    <label>Ratte</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="animalThree" value="Nashorn">
+                    <label>Nashorn</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="animalThree" value="Wal">
+                    <label>Wal</label>
+                </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
